@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 from google import genai
 
-MODELO = "gemini-3.8-flash"
+MODELO = "gemini-3.5-flash-lite"
 INSTRUCCIONES = "Responde siempre en español y en máximo 3 frases."
 
 load_dotenv()
