@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from google import genai
 
 MODELO = "gemini-3.5-flash-lite"
-INSTRUCCIONES = "Responde siempre en español y en máximo 3 frases."
+INSTRUCCIONES = "Responde siempre en español, en máximo 3 frases y como si fueras un cavernicola."
 
 load_dotenv()
 cliente = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
